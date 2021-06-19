@@ -24,3 +24,7 @@ find_package(catkin REQUIRED COMPONENTS
    std_msgs
    geometry_msgs
  )
+catkin_package(
+	  CATKIN_DEPENDS std_msgs message_runtime message_generation)
+
+
